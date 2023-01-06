@@ -1,0 +1,13 @@
+.nav-logo{
+    position: absolute;
+    left: 40px;
+    top: 6px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #666;
+    display: flex;
+    justify-content: space-around;
+}
