@@ -3,140 +3,140 @@
         "id": 1,
         "title": "Kanpai Panda#001",
         "category": "Kanpai Pandas",
-        "price": 50,
+        "price": 0.23,
         "img": "../../assets/kp001.avif"
     },
     {
         "id": 2,
         "title": "Kanpai Panda#002",
         "category": "Kanpai Pandas",
-        "price": 70,
+        "price": 1.4,
         "img": "../../assets/kp002.avif"
     },
     {
         "id": 3,
         "title": "Kanpai Panda#003",
         "category": "Kanpai Pandas",
-        "price": 50,
+        "price": 0.78,
         "img": "../../assets/kp003.avif"
     },
     {
         "id": 4,
         "title": "Kanpai Panda#004",
         "category": "Kanpai Pandas",
-        "price": 50,
+        "price": 0.036,
         "img": "../../assets/kp004.avif"
     },
     {
         "id": 5,
         "title": "Kanpai Panda#005",
         "category": "Kanpai Pandas",
-        "price": 50,
+        "price": 2.3,
         "img": "../../assets/kp005.avif"
     },
     {
         "id": 6,
         "title": "CryptoPunk#101",
         "category": "CryptoPunk",
-        "price": 50,
+        "price": 6,
         "img": "../../assets/punk101.avif"
     },
     {
         "id": 7,
         "title": "CryptoPunk#1010",
         "category": "CryptoPunk",
-        "price": 50,
+        "price": 0.50,
         "img": "../../assets/punk1010.avif"
     },
     {
         "id": 8,
         "title": "CryptoPunk#1021",
         "category": "CryptoPunk",
-        "price": 50,
+        "price": 0.79,
         "img": "../../assets/punk1021.avif"
     },
     {
         "id": 9,
         "title": "CryptoPunk#1041",
         "category": "CryptoPunk",
-        "price": 50,
+        "price": 0.88,
         "img": "../../assets/punk1041.avif"
     },
     {
         "id": 10,
         "title": "CryptoPunk#1038",
         "category": "CryptoPunk",
-        "price": 50,
+        "price": 1.63,
         "img": "../../assets/punk1038.avif"
     },
     {
         "id": 11,
         "title": "Lil Pudgy #13604",
         "category": "Lil Pudgy",
-        "price": 50,
+        "price": 3.01,
         "img": "../../assets/pudgy13604.avif"
     },
     {
         "id": 12,
         "title": "Lil Pudgy #13839",
         "category": "Lil Pudgy",
-        "price": 50,
+        "price": 0.42,
         "img": "../../assets/pudgy13839.avif"
     },
     {
         "id": 13,
         "title": "Lil Pudgy #18052",
         "category": "Lil Pudgy",
-        "price": 50,
+        "price": 0.67,
         "img": "../../assets/pudgy18052.avif"
     },
     {
         "id": 14,
         "title": "Lil Pudgy #21619",
         "category": "Lil Pudgy",
-        "price": 50,
+        "price": 0.981,
         "img": "../../assets/pudgy21619.avif"
     },
     {
         "id": 15,
         "title": "Lil Pudgy #21905",
         "category": "Lil Pudgy",
-        "price": 50,
+        "price": 5.12,
         "img": "../../assets/pudgy21905.avif"
     },
     {
         "id": 16,
         "title": "3Landers#1205",
         "category": "3Landers",
-        "price": 50,
+        "price": 8.10,
         "img": "../../assets/Landers1205.avif"
     },
     {
         "id": 17,
         "title": "3Landers#2711",
         "category": "3Landers",
-        "price": 50,
+        "price": 0.34,
         "img": "../../assets/Landers2711.avif"
     },
     {
         "id": 18,
         "title": "3Landers#2863",
         "category": "3Landers",
-        "price": 50,
+        "price": 5.04,
         "img": "../../assets/Landers2863.avif"
     },
     {
         "id": 19,
         "title": "3Landers#4811",
         "category": "3Landers",
-        "price": 50,
+        "price": 8.20,
         "img": "../../assets/Landers4811.avif"
     },
     {
         "id": 20,
         "title": "3Landers#7530",
         "category": "3Landers",
-        "price": 50,
+        "price": 12.0,
         "img": "../../assets/Landers7530.avif"
     }
 

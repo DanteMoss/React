@@ -1,0 +1,26 @@
+.card-text { 
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: left;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card{ 
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+}
+
+.card-title{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.btn-card{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
