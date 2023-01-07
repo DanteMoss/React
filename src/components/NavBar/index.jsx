@@ -8,8 +8,8 @@ export default function NavBar() {
 
     return (
     <div>
+        <h2 className="logo"><Link to="/">FreshNFT</Link></h2>
         <nav>
-            <h2 className="logo"><Link to="/">FreshNFT</Link></h2>
             <ul>
                 <li><Link to="/category/Kanpai Pandas">Kanpai Pandas Collection</Link></li>
                 <li><Link to="/category/CryptoPunk">CryptoPunk Collection</Link></li>

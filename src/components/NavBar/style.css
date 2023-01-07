@@ -1,7 +1,7 @@
 .widget-container {
     position: absolute;
     right: 40px;
-    top: 40px;
+    top: 50px;
     width: 35px;
     height: 35px;
     display: flex;
@@ -22,9 +22,15 @@ nav{
 .logo a{ 
     color:black;
     font-size: 40px;
-    padding-right: 640px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
     
 }
 
