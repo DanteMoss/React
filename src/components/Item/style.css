@@ -24,3 +24,11 @@
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
+
+.zoomable {
+    transition: transform 0.2s ease-in-out;
+}
+
+.zoomable:hover {
+    transform: scale(1.1);
+}
