@@ -1,0 +1,41 @@
+.footerContainer{
+    margin-top: 7rem;
+}
+
+.footer_info {
+    color: black;
+    border-radius: 10px;
+    margin: 0 5px;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.redes_pie {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pie_pagina {
+    font-size: 2rem;
+}
+
+.redes_pie a img {
+    height: 3rem;
+    gap: 10rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+.info_footer {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.metodos_pagos {
+    text-align: center;
+    gap: 3rem;
+}

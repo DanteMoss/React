@@ -1,11 +1,12 @@
 .widget-container {
     position: absolute;
     right: 40px;
-    top: 50px;
+    top: 25px;
     width: 35px;
     height: 35px;
     display: flex;
     flex-direction: row;
+    text-decoration: none;
 }
 
 nav{
@@ -17,6 +18,7 @@ nav{
     padding-right: 10%;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 .logo a{ 
@@ -47,6 +49,7 @@ nav ul li a {
     color:black;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
+    list-style-type: none;
 }
 
 nav ul li a:hover{

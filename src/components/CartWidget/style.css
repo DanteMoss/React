@@ -1,0 +1,23 @@
+.widget-css{
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    width: 200%;
+}
+
+.widget-css a {
+    color:black;
+    width: 150%;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+.count-span{
+    color:black;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+}
+

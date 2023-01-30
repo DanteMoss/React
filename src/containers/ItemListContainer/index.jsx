@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import ItemList from '../../components/ItemList';
-import productJson from '../../data/products.json';
 import { db } from '../../firebase/config';
 import { collection, getDocs, query, where } from "firebase/firestore";
 
@@ -39,39 +38,6 @@ const ItemListContainer = () => {
             setProducts(productosFirebase);
         }
         getproducts();
-
-
-
-
-
-
-
-        //Caso JSON propio
-        // const getProducts = () => {
-
-        //     const obtenerProductos = new Promise((res, rej) => {
-        //         setTimeout(() => {
-        //             res(productJson)
-        //         }, 3000)
-        //     })
-
-        //     obtenerProductos
-        //         .then(productos => {
-        //             if (categoryId) {
-        //                 const productosFiltradosPorCategoria = productos.filter(producto => producto.category === categoryId)
-        //                 console.log(productosFiltradosPorCategoria)
-        //                 setProducts(productosFiltradosPorCategoria)
-        //             } else {
-        //                 setProducts(productos)
-        //             }
-        //         })
-        //         .catch(error => console.log(error))
-        // }
-
-        // getProducts()
-
-
-
     }, [categoryId])
 
 

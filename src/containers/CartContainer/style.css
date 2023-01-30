@@ -1,0 +1,44 @@
+.btn-confirm { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 51rem;
+    
+}
+
+.text-loading{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.btn-loading a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn-loading a:hover{
+    color: white;
+}
+
+.table-color{
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 5rem;
+    
+
+}
+
+.col-color{
+    color: black;
+}
+
+.text-cart{
+    display: flex;
+    justify-content: center;
+}
