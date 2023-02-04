@@ -11,8 +11,8 @@ const TableRow = ({product}) => {
     }
     return (
     <tr>
-            <th className='col-color' scope="row">{product.id}</th>
-            <td className='col-color'><img src={product.img} alt="table-row" style={{height: 150}}/></td>
+            
+            <td className='col-color border-radius'><img src={product.img} alt="table-row" style={{height: 150}}/></td>
             <td className='col-color'>{product.title}</td>
             <td className='col-color'>{product.price} ETH</td>
             <td className='col-color'>{product.quantity}</td>

@@ -1,5 +1,5 @@
-import React, { useContext, useState } from 'react'
-import TableRow from './TableRow'
+import React, { useContext, useState } from 'react';
+import TableRow from './TableRow';
 import { Shop } from '../../context/ShopProvider';
 import generateOrderObject from '../../services/generateOrderObject';
 import { collection, addDoc } from "firebase/firestore";
@@ -8,7 +8,8 @@ import { doc, updateDoc } from "firebase/firestore";
 import { Link } from 'react-router-dom';
 import FormComp from '../../components/Form';
 import Spinner from 'react-bootstrap/Spinner';
-import "./style.css"
+import "./style.css";
+import Swal from 'sweetalert2';
 
 
 const Cart = () => {
@@ -33,7 +34,7 @@ const Cart = () => {
                 cart: products,
                 total: total()
             })
-            
+
             // setFormVis(true);
             console.log(order);
 
@@ -46,13 +47,28 @@ const Cart = () => {
             for (const productCart of products) {
                 const productRef = doc(db, "products", productCart.id);
 
-            
+
                 await updateDoc(productRef, {
                     stock: productCart.stock - productCart.quantity
                 });
             }
 
-            alert("Orden confirmada con ID: " + docRef.id);
+            const Toast = Swal.mixin({
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.addEventListener('mouseenter', Swal.stopTimer)
+                    toast.addEventListener('mouseleave', Swal.resumeTimer)
+                }
+            })
+
+            Toast.fire({
+                icon: 'success',
+                title: "Orden confirmada con ID: " + docRef.id
+            })
 
         } catch (error) {
             console.log(error);
@@ -72,12 +88,12 @@ const Cart = () => {
                         <table class="table table-striped table-color">
                             <thead>
                                 <tr>
-                                    <th className='col-color' scope="col">Id</th>
+                                    
                                     <th className='col-color' scope="col">Image</th>
                                     <th className='col-color' scope="col">Title</th>
                                     <th className='col-color' scope="col">Price</th>
                                     <th className='col-color' scope="col">Quantity</th>
-                                    
+
                                 </tr>
                             </thead>
                             <tbody>
@@ -96,8 +112,8 @@ const Cart = () => {
                     :
                     <>
                         <h1 className='text-loading'>Su carrito está vacio.</h1>
-                        <button className='btn-loading btn btn-success btn-lg'>
-                            <Link to="/">Home</Link>
+                        <button className='btn-loading btn btn-success btn-lg btn-home'>
+                            <Link to="/">Go To Home</Link>
                         </button>
                     </>
             }
