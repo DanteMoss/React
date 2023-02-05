@@ -48,3 +48,5 @@ Fue utilizado para la base de datos en donde estan los productos. Tambien es don
 ![image](https://user-images.githubusercontent.com/111817877/216770574-e8841c9e-a704-4279-980f-3836f3332ab8.png)
 
 
+
+ Link del deploy: https://react-ekb3b6vzs-dantemoss.vercel.app
